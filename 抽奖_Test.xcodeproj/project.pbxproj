@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195B81C519793415008ABB91 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 195B81C419793415008ABB91 /* TPKeyboardAvoidingScrollView.m */; };
 		195DFE0B1978C3A300D639A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195DFE0A1978C3A300D639A2 /* Foundation.framework */; };
 		195DFE0D1978C3A300D639A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195DFE0C1978C3A300D639A2 /* CoreGraphics.framework */; };
 		195DFE0F1978C3A300D639A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195DFE0E1978C3A300D639A2 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		195DFE2C1978C3A300D639A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195DFE0E1978C3A300D639A2 /* UIKit.framework */; };
 		195DFE341978C3A300D639A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 195DFE321978C3A300D639A2 /* InfoPlist.strings */; };
 		195DFE361978C3A300D639A2 /* ___TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 195DFE351978C3A300D639A2 /* ___TestTests.m */; };
+		195DFE411978C3BE00D639A2 /* ly-plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 195DFE3F1978C3BE00D639A2 /* ly-plate.png */; };
+		195DFE421978C3BE00D639A2 /* rotate-static.png in Resources */ = {isa = PBXBuildFile; fileRef = 195DFE401978C3BE00D639A2 /* rotate-static.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		195B81C319793415008ABB91 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		195B81C419793415008ABB91 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		195DFE071978C3A300D639A2 /* 抽奖_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽奖_Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		195DFE0A1978C3A300D639A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		195DFE0C1978C3A300D639A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		195DFE311978C3A300D639A2 /* 抽奖_TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "抽奖_TestTests-Info.plist"; sourceTree = "<group>"; };
 		195DFE331978C3A300D639A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		195DFE351978C3A300D639A2 /* ___TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___TestTests.m"; sourceTree = "<group>"; };
+		195DFE3F1978C3BE00D639A2 /* ly-plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly-plate.png"; sourceTree = "<group>"; };
+		195DFE401978C3BE00D639A2 /* rotate-static.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate-static.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,8 @@
 		195DFE101978C3A300D639A2 /* 抽奖_Test */ = {
 			isa = PBXGroup;
 			children = (
+				195B81C319793415008ABB91 /* TPKeyboardAvoidingScrollView.h */,
+				195B81C419793415008ABB91 /* TPKeyboardAvoidingScrollView.m */,
 				195DFE191978C3A300D639A2 /* AppDelegate.h */,
 				195DFE1A1978C3A300D639A2 /* AppDelegate.m */,
 				195DFE1C1978C3A300D639A2 /* Main.storyboard */,
@@ -126,6 +135,8 @@
 		195DFE111978C3A300D639A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				195DFE3F1978C3BE00D639A2 /* ly-plate.png */,
+				195DFE401978C3BE00D639A2 /* rotate-static.png */,
 				195DFE121978C3A300D639A2 /* 抽奖_Test-Info.plist */,
 				195DFE131978C3A300D639A2 /* InfoPlist.strings */,
 				195DFE161978C3A300D639A2 /* main.m */,
@@ -228,9 +239,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195DFE421978C3BE00D639A2 /* rotate-static.png in Resources */,
 				195DFE231978C3A300D639A2 /* Images.xcassets in Resources */,
 				195DFE151978C3A300D639A2 /* InfoPlist.strings in Resources */,
 				195DFE1E1978C3A300D639A2 /* Main.storyboard in Resources */,
+				195DFE411978C3BE00D639A2 /* ly-plate.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				195DFE211978C3A300D639A2 /* ViewController.m in Sources */,
+				195B81C519793415008ABB91 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				195DFE1B1978C3A300D639A2 /* AppDelegate.m in Sources */,
 				195DFE171978C3A300D639A2 /* main.m in Sources */,
 			);
@@ -456,6 +470,7 @@
 				195DFE3B1978C3A300D639A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		195DFE3C1978C3A300D639A2 /* Build configuration list for PBXNativeTarget "抽奖_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +479,7 @@
 				195DFE3E1978C3A300D639A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
